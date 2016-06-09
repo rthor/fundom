@@ -1,3 +1,2 @@
-import component from './lib/component'
-
-console.log(component)
+export { createElement } from './lib/create-element'
+export { child } from './lib/child'
