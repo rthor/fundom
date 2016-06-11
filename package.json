@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint lib",
-    "test": "./node_modules/.bin/ava"
+    "ava": "./node_modules/.bin/ava",
+    "test": "npm run lint && npm run ava",
+    "dev": "npm run ava -- --watch"
   },
   "author": "rthor",
   "license": "MIT",
