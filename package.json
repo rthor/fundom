@@ -1,7 +1,7 @@
 {
   "name": "fundom",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A functional Javascript library for creating stateful user interfaces.",
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint lib",
