@@ -26,7 +26,8 @@
   "ava": {
     "failFast": true,
     "require": [
-      "babel-register"
+      "babel-register",
+      "./lib/helpers/test-dom.js"
     ],
     "verbose": true,
     "babel": "inherit"
